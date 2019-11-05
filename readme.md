@@ -1,4 +1,4 @@
-# Authentication - Using JWT, Passport & Postgresql (for Techtonica Mentees) - Draft #1 
+# Authentication - Using JWT, Passport & Postgresql (for Techtonica Mentees) - *Draft*
 
 ##### NOTE:  *This is an educational example.* 
 
@@ -106,10 +106,9 @@ module.exports = {
 // production & staging settings will also live here
 ```
 
-
 ## STEP #3 - Create Database using psql @ the command line
 
-- Assumption: You have postgresql running locally 
+##### ASSUMPTION NOTE:  *You have postgresql running locally* 
 
 `psql` 
 
