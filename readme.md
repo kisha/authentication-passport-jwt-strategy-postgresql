@@ -111,7 +111,7 @@ module.exports = {
 ##### ASSUMPTION NOTE:  *You have postgresql running locally* 
 
 `psql` 
-
+8
 `	   CREATE DATABASE jwt_pg_auth_tutorial;` 
 
 ## STEP #4 - Create a Migration with Knex for the User Authentication table  @command line
@@ -278,7 +278,7 @@ POST to  `/register` using Insomina/Postman with email & password
 
 ![register-endpoint](/register-endpoint.png?true "Register Endpoint")
 
-Confirm that User data persisted in Postgresql via `psql`  @commandline
+Confirm that User data persisted in Postgresql via `psql` with a Hashed Password using bcrypt @commandline
 ![register-endpoint](/user-authentication-data.png?true "PSQL query")
 
 
