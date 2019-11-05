@@ -1,5 +1,7 @@
 # Authentication - Using JWT, Passport & Postgresql (for Techtonica Mentees) - *Draft*
 
+## LUNCH & LEARN NOTES 
+
 ##### NOTE:  *This is an educational example.* 
 
 This is NOT intended to be a "copy & paste" solution. This is a directional example displaying the steps required to get the jwt strategy working with passport & postgresql. 
