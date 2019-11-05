@@ -278,8 +278,9 @@ app.get('/tokenProtected', passport.authenticate(
 
 POST to  `/register` using Insomina/Postman with email & password 
 
-![register-endpoint](https://raw.githubusercontent.com/kisha/authentication-passport-jwt-strategy-postgresql
-/master/register-endpoint.png)
+![register-endpoint](/register-endpoint.png?true "Register Endpoint")
+
+<!-- ![Alt text](relative/path/to/img.jpg?raw=true "Title") -->
 
 ![register-endpoint](/Users/kisha/Downloads/register-endpoint.png)Confirm that User data persisted in Postgresql via `psql`  @commandline
 
