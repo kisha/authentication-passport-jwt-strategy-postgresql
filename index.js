@@ -79,6 +79,7 @@ app.post('/register', async (request, response) => {
 });
 
 // Authenticate && Return a Token if Valid User/Password 
+
 app.post('/getToken', (request, response) => {
   if(!request.body.email || !request.body.password) {
     return response.status(401).send('Wrong email or password used.');
@@ -98,11 +99,10 @@ app.post('/getToken', (request, response) => {
   });
 });
 
-// Use Token to Access A protected page 
 app.get('/tokenProtected', passport.authenticate(
   'jwt', { session: false } ),
   (request, response) => {
-    response.send('Endpoint requires token');
+    response.send('You have access to a protected page');
 });
 
 //process.env.PORT || 4000 
