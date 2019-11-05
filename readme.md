@@ -281,7 +281,7 @@ POST to  `/register` using Insomina/Postman with email & password
 ![register-endpoint](/register-endpoint.png?true "Register Endpoint")
 
 Confirm that User data persisted in Postgresql via `psql`  @commandline
-![register-endpoint](/register-endpoint.png?true "PSQL query")
+![register-endpoint](/user-authentication-data.png?true "PSQL query")
 
 
 **2 - /getToken** 
