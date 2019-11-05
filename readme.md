@@ -1,6 +1,6 @@
 # Authentication - Using JWT, Passport & Postgresql (for Techtonica Mentees)
 
-
+# DRAFT #1
 
 ## Step #1 - Basic Setup
 
@@ -290,15 +290,6 @@ Confirm that User data persisted in Postgresql via `psql`  @commandline
 
 ![getToken](/getToken.png?true "getToke Endpont")
 
-3 - GET /tokenProtected with Authorization/Bearer Token details in the header
+**3 - GET /tokenProtected with Authorization/Bearer Token details in the header**
 
   - ![protected-page](/protected-page.png?true "Token Protection")
-
-```ruby
-Example Header Request 
-
-Key: Authorization
-
-Value: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTEsImlhdCI6MTU3Mjg5NzMwMH0.kNf-AnN8B7rcBpMia9nI-DRZYn9SqMxGckzMDiX1K
-```
-
