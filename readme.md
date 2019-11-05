@@ -280,22 +280,19 @@ POST to  `/register` using Insomina/Postman with email & password
 
 ![register-endpoint](/register-endpoint.png?true "Register Endpoint")
 
-<!-- ![Alt text](relative/path/to/img.jpg?raw=true "Title") -->
+Confirm that User data persisted in Postgresql via `psql`  @commandline
+![register-endpoint](/register-endpoint.png?true "PSQL query")
 
-![register-endpoint](/Users/kisha/Downloads/register-endpoint.png)Confirm that User data persisted in Postgresql via `psql`  @commandline
-
-- ![user-authentication-data](/Users/kisha/Downloads/user-authentication-data.png)
 
 **2 - /getToken** 
 
 - POST to  `/getToken`** with the email & password to request a token
 
-![getToken](/Users/kisha/Downloads/getToken.png)
+![getToken](/getToken.png?true "getToke Endpont")
 
-3 - GET /tokenProtected
+3 - GET /tokenProtected with Authorization/Bearer Token details in the header
 
-- Header Section 
-  - ![protected-page](/Users/kisha/Downloads/protected-page.png)
+  - ![protected-page](/protected-page.png?true "Token Protection")
 
 ```ruby
 Example Header Request 
