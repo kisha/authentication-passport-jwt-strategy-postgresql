@@ -1,6 +1,8 @@
-# Authentication - Using JWT, Passport & Postgresql (for Techtonica Mentees)
+# Authentication - Using JWT, Passport & Postgresql (for Techtonica Mentees) - Draft #1 
 
-# DRAFT #1
+# NOTE: This is an educational example. 
+# This is NOT intended to be a "copy and paste" solution. 
+# This is a directional example displaying the steps required to get the jwt strategy working with passport & postgresql. 
 
 ## Step #1 - Basic Setup
 
@@ -37,10 +39,9 @@ app.listen(portSettings, () => console.log('Server is Running'));
 ```
 
 
-
 ## Step #1a - scripts, .gitignore & .env updates 
 
-- Add "dev": "nodemon index.js" to the scripts section of your ``package.json` This will give you the ability to start the server using nodemon using `npm run dev` 
+- Add `"dev": "nodemon index.js"` to the scripts section of your `package.json` This will give you the ability to start the server using nodemon using `npm run dev` 
 - Add an .env file with ...
   - SECRET_KEY=whateveritIs
 - Add a .gitignore file
@@ -101,10 +102,10 @@ module.exports = {
   }
 };
 
-// NOTE: The intention of this tutorial is to walk you through getting authentication running in your *development* environment. 
+// NOTE: The intention of this tutorial is to walk you through how to get authentication running in your *development* environment. 
+// production & staging settings will also live here
 ```
 
- 
 
 ## STEP #3 - Create Database using psql @ the command line
 
@@ -154,7 +155,6 @@ Using environment: development
 Batch 1 run: 1 migrations
 
 ```
-
 
 
 ## STEP #5 - Check Postgresql for Successful Table Migration
@@ -267,7 +267,6 @@ app.get('/tokenProtected', passport.authenticate(
 });
 
 ```
-
 
 
 ## Step #9 - Try out Endpoints 
