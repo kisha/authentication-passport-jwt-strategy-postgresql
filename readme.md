@@ -111,8 +111,8 @@ module.exports = {
 ##### ASSUMPTION NOTE:  *You have postgresql running locally* 
 
 `psql` 
-8
-`	   CREATE DATABASE jwt_pg_auth_tutorial;` 
+
+`CREATE DATABASE jwt_pg_auth_tutorial;` 
 
 ## STEP #4 - Create a Migration with Knex for the User Authentication table  @command line
 
