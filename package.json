@@ -16,7 +16,7 @@
     "bookshelf-secure-password": "^4.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "knex": "^0.20.1",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
